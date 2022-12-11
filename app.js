@@ -15,7 +15,7 @@ app.use("/api/user", Authrouter);
 
 mongoose
   .connect(
-    "mongodb+srv://admin:s36908814@cluster0.synjz4t.mongodb.net/comp3123_assigment1?retryWrites=true&w=majority"
+    "mongodb+srv://admin:**password**cluster0.synjz4t.mongodb.net/***database name**?retryWrites=true&w=majority"
   )
   .then(() => console.log("Connected To Database"))
   .catch((err) => console.log(err));
